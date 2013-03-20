@@ -5,8 +5,10 @@ some hacks around fb/pesit_confessions
 
 Instructions:
 
-Uses redis as the backend(port 6379 hardcoded at the moment)
-stores confession number as the key and message,no_of likes, no_of comments, comments as values
+Redis is the backend (port 6379 hardcoded at the moment)
+
+key    : confession number
+values : message,no_of likes, no_of comments, comments as values
 
 sample
 hset "posts" "3" "{\"message\": message, \"likes\": 3, \"comments_count\": 3, \"comments\" :[c1, c2, c3]}"

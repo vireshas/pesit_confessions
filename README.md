@@ -8,7 +8,7 @@ Instructions:
 Uses redis as the backend(port 6379 hardcoded at the moment)
 stores confession number as the key and message,no_of likes, no_of comments, comments as values
 
-sample
+Sample redis entry
 hset "posts" "3" "{\"message\": message, \"likes\": 3, \"comments_count\": 3, \"comments\" :[c1, c2, c3]}"
 
 You can use this project to scrape pesit_confessions page and store it in redis

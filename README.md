@@ -7,8 +7,8 @@ Instructions:
 
 Redis is the backend (port 6379 hardcoded at the moment)
 
-key    : confession number
-values : message,no_of likes, no_of comments, comments as values
+* key    : confession number
+* values : message,no_of likes, no_of comments, comments as values
 
 Sample redis entry
 hset "posts" "3" "{\"message\": message, \"likes\": 3, \"comments_count\": 3, \"comments\" :[c1, c2, c3]}"

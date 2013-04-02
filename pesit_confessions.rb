@@ -5,7 +5,7 @@ require "redis"
 class PesitConfessions
   class << self
     def configure
-      @access_token = "166959483452298|gTCLDoLCM89lzRvjm_Ww2ThOfsU"
+      @access_token = "166959483452298|gTCLDoLCM89lzRvjm_Ww2ThOfsU" #thanks to akshayms ;)
       @api = "https://graph.facebook.com/613660905316922/posts"
       configure_redis
     end
@@ -80,7 +80,7 @@ class PesitConfessions
     end
 
     def get_access_token
-
+      #to be implemented
     end
   end
 end
